@@ -1,15 +1,9 @@
-// let studentData: any =
-// {
-//     name: "Ahmed",
-//     age: 15,
-//     rollnum: 1234,
-//     address: "Karachi"
-// }
-// let property = "age"
-// console.log(studentData[property]);
+
 import inquirer from "inquirer";
 import chalk from "chalk";
+
 console.log(chalk.bold.red.bgYellow("Welcome To The Currency Converter"));
+
 const currency = {
     USD: 1,
     EUR: 0.96,
@@ -36,6 +30,7 @@ let userAnswer = await inquirer.prompt([
         type: "number",
     }
 ]);
+
 let fromAmount = currency[userAnswer.from];
 let toAmount = currency[userAnswer.to];
 let amount = userAnswer.amount;
