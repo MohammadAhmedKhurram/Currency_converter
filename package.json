@@ -1,6 +1,6 @@
 {
   "name": "smart_currency_converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript-based command-line currency converter using Node.js, Inquirer, Chalk, and Axios. This tool allows users to convert an amount from one currency to another using real-time exchange rates.",
   "main": "main.js",
   "type": "module",
