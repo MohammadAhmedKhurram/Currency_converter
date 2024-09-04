@@ -1,17 +1,18 @@
 {
-  "name": "class08",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "smart_currency_converter",
+  "version": "1.0.1",
+  "description": "A TypeScript-based command-line currency converter using Node.js, Inquirer, Chalk, and Axios. This tool allows users to convert an amount from one currency to another using real-time exchange rates.",
+  "main": "main.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "ahmedtodo_app": "^1.0.0",
+    "axios": "^1.7.7",
     "chalk": "^5.3.0",
     "inquirer": "^9.2.17"
   },
